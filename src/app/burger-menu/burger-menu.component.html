@@ -1,8 +1,36 @@
-<ul>
-  <li>Menu Item</li>
-  <li>Menu Item</li>
-  <li>Menu Item</li>
-  <li>Menu Item</li>
-  <li>Menu Item</li>
-  <li>Menu Item</li>
-</ul>
+<div class="menu" (click)="toggleMenu()">
+    <div class="bar"></div>	
+</div>
+
+<div>
+    <!--<button (click)="toggleMenu()" class="hamburger">
+      <span>toggle menu</span>
+    </button>-->
+    
+    <div class="left" [@slideInOut2]="slideInOut">
+      <ul>
+        <li>Menu Item</li>
+        <li>Menu Item</li>
+        <li>Menu Item</li>
+        <li>Menu Item</li>
+        <li>Menu Item</li>
+        <li>Menu Item</li>
+      </ul>
+    </div>
+
+</div>
+
+<!-- <button (click)="toggleMenu()" class="hamburger">
+  <span>toggle menu</span>
+</button>
+
+<div class="left" [@slideInOut2]="slideInOut">
+  <ul>
+    <li>Menu Item</li>
+    <li>Menu Item</li>
+    <li>Menu Item</li>
+    <li>Menu Item</li>
+    <li>Menu Item</li>
+    <li>Menu Item</li>
+  </ul>
+</div> -->
