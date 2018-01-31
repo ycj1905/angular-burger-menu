@@ -1,18 +1,3 @@
-/* :host {
-  background: #1a2580;
-  background: #1a2580;
-  color: #fff;
-  position: fixed;
-  left: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 20%;
-  min-width: 250px;
-  z-index: 9999;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-} */
- 
 .left {
   background: #1a2580;
   color: #fff;
@@ -35,50 +20,98 @@ ul {
 }
 
 
-body{background:#bf6766}.menu{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;width:100px;height:60px;cursor:pointer}.bar,.bar:after,.bar:before{width:60px;height:10px}.bar{position:relative;-webkit-transform:translateY(25px);transform:translateY(25px);background:#000;transition:all 0ms .3s}.bar:before{bottom:25px;transition:bottom .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:bottom .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1);transition:bottom .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1)}.bar:after,.bar:before{content:"";position:absolute;left:0;background:#000}.bar:after{top:25px;transition:top .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:top .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1);transition:top .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1)}.bar.animate{background:hsla(0,0%,100%,0)}.bar.animate:after{top:0;-webkit-transform:rotate(45deg);transform:rotate(45deg);transition:top .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:top .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:top .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s}.bar.animate:before{bottom:0;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);transition:bottom .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s}
+/* body{background:#bf6766}.menu{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;width:100px;height:60px;cursor:pointer}.bar,.bar:after,.bar:before{width:60px;height:10px}.bar{position:relative;-webkit-transform:translateY(25px);transform:translateY(25px);background:#000;transition:all 0ms .3s}.bar:before{bottom:25px;transition:bottom .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:bottom .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1);transition:bottom .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1)}.bar:after,.bar:before{content:"";position:absolute;left:0;background:#000}.bar:after{top:25px;transition:top .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);transition:top .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1);transition:top .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1)}.bar.animate{background:hsla(0,0%,100%,0)}.bar.animate:after{top:0;-webkit-transform:rotate(45deg);transform:rotate(45deg);transition:top .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:top .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:top .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s}.bar.animate:before{bottom:0;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);transition:bottom .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s;transition:bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s} */
+/* .menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	margin: 0 80%;
+	width: 100px;
+	height: 60px;
+	cursor: pointer;
+ 
+} */
+.menu{
+  top: 5px;
+  /* left: 2px; */
+  right: 10px;
+  position: absolute;
+  /* bottom: 0; */
+  /* margin: 0 80%; */
+  /* width: 100px; */
+  height: 60px;
+  cursor: pointer;
+}
+.menu2 {
+	/* position: absolute; */
+	top: 5px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	/* margin: auto; */
+	margin: 0;
+	width: 100px;
+	height: 60px;
+	cursor: pointer;
+ 
+}
 
-/* .hamburger {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    width: 96px;
-    height: 96px;
-    font-size: 0;
-    text-indent: -9999px;
-    cursor: pointer;
-    outline: none;
-    background: none;
-    border: 0;
-  }
-   
-   
-  .hamburger span {
-    display: block;
-    position: absolute;
-    top: 44px;
-    left: 18px;
-    right: 18px;
-    height: 8px;
-    background: #1a2580;
-  }
-   
-  .hamburger span::before,
-  .hamburger span::after {
-    display: block;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 8px;
-    background-color: #1a2580;
-    content: "";
-  }
-   
-  .hamburger span::before {
-    top: -20px;
-  }
-   
-  .hamburger span::after {
-    bottom: -20px;
-  } */
+.bar, .bar:after, .bar:before {
+  width: 60px;
+	height: 10px;
+}
+
+.bar {
+	position: relative;
+	-webkit-transform: translateY(25px);
+	        transform: translateY(25px);
+	background: rgba(0, 0, 0, 1);
+	transition: all 0ms 300ms
+}
+
+.bar::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 25px;
+	background: rgba(0, 0, 0, 1);
+	transition: bottom .3s .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: bottom .3s .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: bottom .3s .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 25px;
+	background: rgba(0, 0, 0, 1);
+	transition: top .3s .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: top .3s .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: top .3s .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate {
+	background: rgba(255, 255, 255, 0);
+}
+
+.bar.animate::after {
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	transition: top .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: top .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: top .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate::before {
+	bottom: 0;
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+	transition: bottom .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: bottom .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1);
+	transition: bottom .3s cubic-bezier(0.23, 1, 0.32, 1), transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .3s .3s cubic-bezier(0.23, 1, 0.32, 1);
+}
