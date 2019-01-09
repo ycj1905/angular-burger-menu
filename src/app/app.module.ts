@@ -10,8 +10,7 @@ import { BurgerMenuModule } from './modules/burger-menu/burger-menu.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    // BurgerMenuComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
